@@ -2,6 +2,7 @@ from pathlib import Path
 
 MODEL_PATH = Path("models")
 DATA_PATH = Path("data")
+DEFAULT_VECTOR_STORE = "hub://khenzo/data-quantum-supremacy-pdf_512-15_text-embedding-ada-002_admin"
 
 DEFAULT_USER = "admin"
 

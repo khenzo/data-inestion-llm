@@ -1,7 +1,8 @@
 PAGE_ICON = "🤖"
-APP_NAME = "DataChad V2"
+APP_NAME = ""
 PROJECT_URL = "https://github.com/gustavz/DataChad"
 DEFAULT_DATA_SOURCE = "https://github.com/gustavz/DataChad.git"
+DEFAULT_VECTOR_STORE = "hub://khenzo/data-quantum-supremacy-pdf_512-15_text-embedding-ada-002_admin"
 
 
 LOCAL_MODE_DISABLED_HELP = """

@@ -18,6 +18,7 @@ from datachad.backend.constants import (
     MAXIMAL_MARGINAL_RELEVANCE,
     STORE_DOCS_EXTRA,
     TEMPERATURE,
+    DEFAULT_VECTOR_STORE
 )
 from datachad.backend.deeplake import (
     get_data_source_from_deeplake_dataset_path,
@@ -57,6 +58,7 @@ def init_session_state():
         "vector_store": None,
         "existing_vector_stores": [],
         "chat_history": StreamlitChatMessageHistory(),
+        "default_vectore_store": DEFAULT_VECTOR_STORE
     }
 
     for k, v in SESSION_DEFAULTS.items():
